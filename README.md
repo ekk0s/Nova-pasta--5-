@@ -2,40 +2,41 @@
 
 Este projeto é uma implementação simples de um sistema de gestão financeira e de estoque construído em Python que utiliza notas fiscais eletrônicas (NF‑e) no formato XML.
 
-## Arquivos
+## Arquivos (Versão 2)
 
-* **`inventory_manager.py`** – Script principal com uma interface de linha de comando (CLI). Permite importar arquivos XML de NF‑e de um diretório, atualizar o estoque e consultar relatórios de estoque e financeiros.
-* **`inventory_manager_gui.py`** – Interface gráfica opcional usando `tkinter`. Pode ser executada se o ambiente possuir suporte a `tkinter`. Permite importar notas através de uma janela de seleção de diretório, exibir o relatório de estoque em uma tabela (`Treeview`) e mostrar o resumo financeiro em janelas pop‑up.
-* **`nfe_000001.xml` ... `nfe_000009.xml`** – Conjunto de notas fiscais de teste fornecido para verificar o funcionamento do sistema. Estes arquivos são utilizados durante a importação de notas pelo programa.
+* **`inventory_system_v2.py`** – Script principal para a versão 2. Integra uma base de dados SQLite, suporte a cadastro e login de usuários com diferentes perfis (administrador, operador, visualizador), importação de notas fiscais, controle de estoque, relatórios financeiros e de movimentações com filtros e exportação para CSV ou Excel. Inclui uma interface de linha de comando e um esboço de IHM com `tkinter`.
+* **`inventory_manager.py`** – Versão original (V1) com CLI básica para importação e relatório. Mantido para referência.
+* **`inventory_manager_gui.py`** – GUI opcional da versão 1 (necessita `tkinter`).
+* **`nfe_000001.xml` ... `nfe_000009.xml`** – Conjunto de notas fiscais de teste.
 * **`README.md`** – Este documento.
 
-## Como executar
+## Como executar (Versão 2)
 
 1. Certifique‑se de ter Python 3.8 ou superior instalado no seu sistema.
 2. Descompacte o arquivo `.zip` onde desejar.
 3. No terminal, navegue até a pasta onde se encontram os arquivos do projeto.
-4. Para executar a versão de linha de comando, use:
+4. Para executar a versão de linha de comando da versão 2, use:
 
    ```bash
-   python inventory_manager.py
+   python inventory_system_v2.py
    ```
 
-   Você verá um menu onde poderá informar o diretório que contém os arquivos `.xml` para importação e visualizar os relatórios.
+   Será criado um banco de dados SQLite (`inventory_system_v2.db`) automaticamente. O primeiro acesso cria um usuário administrador padrão (`admin`/`admin`). A partir do menu inicial, é possível cadastrar novos usuários (que necessitam aprovação do administrador), importar notas fiscais, consultar estoque, gerar relatórios, exportar dados e cadastrar produtos conforme o perfil.
 
 5. Para testar a interface gráfica (caso tenha suporte a `tkinter`), execute:
 
    ```bash
-   python inventory_manager_gui.py
+   python -c "from inventory_system_v2 import run_gui; run_gui()"
    ```
 
-   Uma janela será aberta permitindo selecionar um diretório de notas, exibir o relatório de estoque e o relatório financeiro.
+   Uma janela será aberta solicitando login ou cadastro. Após logar, você terá acesso às mesmas funcionalidades da CLI por meio de botões e janelas auxiliares.
 
 ## Dependências
 
 * Biblioteca padrão do Python (`xml.etree.ElementTree`, `dataclasses`, `glob`, `tkinter`, etc.). Não são necessários pacotes externos.
-* Para a interface gráfica, é preciso que o módulo `tkinter` esteja disponível no ambiente (nem todos os ambientes Python instalam o `tkinter` por padrão).
+* Para a versão 2, usa-se apenas a biblioteca padrão (`sqlite3`, `xml.etree.ElementTree`, etc.). A exportação para Excel requer que a biblioteca `pandas` e seus dependentes estejam instalados (já inclusos na maioria dos ambientes científicos). Para a interface gráfica, `tkinter` deve estar disponível.
 
 ## Observações
 
-* O sistema não inclui persistência em banco de dados nem autenticação de usuário; estes itens são considerados aprimoramentos opcionais conforme as especificações do projeto.
+* A versão 2 implementa persistência em banco de dados e autenticação de usuário com perfis e aprovação administrativa, atendendo a requisitos adicionais do projeto【310994896719090†L116-L132】.
 * O objetivo desta entrega é fornecer um esqueleto funcional focado na importação de notas, controle de estoque e geração de relatórios conforme descrito nas especificações【310994896719090†L40-L55】.
