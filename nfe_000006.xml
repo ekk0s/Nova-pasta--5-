@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+    <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+        <infNFe Id="NFe33419964842111944117153301673608088446430850" versao="4.00">
+            <ide>
+                <cUF>35</cUF>
+                <cNF>41834384</cNF>
+                <natOp>Venda de Mercadoria</natOp>
+                <mod>55</mod>
+                <serie>1</serie>
+                <nNF>000006</nNF>
+                <dhEmi>2025-10-31T13:11:06-03:00</dhEmi>
+                <tpNF>1</tpNF>
+                <idDest>1</idDest>
+                <cMunFG>3550308</cMunFG>
+                <tpImp>1</tpImp>
+                <tpEmis>1</tpEmis>
+                <cDV>6</cDV>
+                <tpAmb>1</tpAmb>
+                <finNFe>1</finNFe>
+                <indFinal>1</indFinal>
+                <indPres>1</indPres>
+                <procEmi>0</procEmi>
+                <verProc>NF-E SIMULADA</verProc>
+            </ide>
+            <emit>
+                <CNPJ>17.069.458/0001-08</CNPJ>
+                <xNome>APARECIDA LTDA.</xNome>
+            </emit>
+            <dest>
+                <CNPJ>68.725.043/0001-78</CNPJ>
+                <xNome>LUNA DA CONCEIÇÃO</xNome>
+            </dest>
+            
+    <det nItem="1">
+        <prod>
+            <cProd>7595851690367882</cProd>
+            <xProd>QUISQUAM</xProd>
+            <NCM>01012100</NCM>
+            <CFOP>5101</CFOP>
+            <uCom>UN</uCom>
+            <qCom>19.305</qCom>
+            <vUnCom>124.65</vUnCom>
+            <vProd>2406.37</vProd>
+            <rastro>
+                <nLote>8866767</nLote>
+                <qLote>19.305</qLote>
+                <dFab>2025-09-18</dFab>
+                <dVal>2026-06-30</dVal>
+            </rastro>
+        </prod>
+        <imposto>
+            <ICMS>
+                <ICMS00>
+                    <orig>0</orig>
+                    <CST>00</CST>
+                    <pICMS>18.00</pICMS>
+                    <vICMS>433.15</vICMS>
+                </ICMS00>
+            </ICMS>
+        </imposto>
+    </det>
+    
+    <det nItem="2">
+        <prod>
+            <cProd>1856768570744834</cProd>
+            <xProd>ODIT</xProd>
+            <NCM>01012100</NCM>
+            <CFOP>5101</CFOP>
+            <uCom>UN</uCom>
+            <qCom>17.149</qCom>
+            <vUnCom>670.66</vUnCom>
+            <vProd>11501.15</vProd>
+            <rastro>
+                <nLote>7617633</nLote>
+                <qLote>17.149</qLote>
+                <dFab>2025-08-30</dFab>
+                <dVal>2026-10-02</dVal>
+            </rastro>
+        </prod>
+        <imposto>
+            <ICMS>
+                <ICMS00>
+                    <orig>0</orig>
+                    <CST>00</CST>
+                    <pICMS>18.00</pICMS>
+                    <vICMS>2070.21</vICMS>
+                </ICMS00>
+            </ICMS>
+        </imposto>
+    </det>
+    
+    <det nItem="3">
+        <prod>
+            <cProd>3067982238911521</cProd>
+            <xProd>MAXIME</xProd>
+            <NCM>01012100</NCM>
+            <CFOP>5101</CFOP>
+            <uCom>UN</uCom>
+            <qCom>51.801</qCom>
+            <vUnCom>541.71</vUnCom>
+            <vProd>28061.12</vProd>
+            <rastro>
+                <nLote>6314052</nLote>
+                <qLote>51.801</qLote>
+                <dFab>2025-10-21</dFab>
+                <dVal>2026-03-10</dVal>
+            </rastro>
+        </prod>
+        <imposto>
+            <ICMS>
+                <ICMS00>
+                    <orig>0</orig>
+                    <CST>00</CST>
+                    <pICMS>18.00</pICMS>
+                    <vICMS>5051.0</vICMS>
+                </ICMS00>
+            </ICMS>
+        </imposto>
+    </det>
+    
+            <total>
+                <ICMSTot>
+                    <vProd>41968.64</vProd>
+                    <vICMS>7554.36</vICMS>
+                    <vNF>41968.64</vNF>
+                </ICMSTot>
+            </total>
+        </infNFe>
+    </NFe>
+</nfeProc>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+    <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+        <infNFe Id="NFe34899271749188969070702057255124930042495605" versao="4.00">
+            <ide>
+                <cUF>35</cUF>
+                <cNF>45919757</cNF>
+                <natOp>Compra de Mercadoria</natOp>
+                <mod>55</mod>
+                <serie>1</serie>
+                <nNF>000001</nNF>
+                <dhEmi>2025-10-31T13:11:06-03:00</dhEmi>
+                <tpNF>0</tpNF>
+                <idDest>1</idDest>
+                <cMunFG>3550308</cMunFG>
+                <tpImp>1</tpImp>
+                <tpEmis>1</tpEmis>
+                <cDV>9</cDV>
+                <tpAmb>1</tpAmb>
+                <finNFe>1</finNFe>
+                <indFinal>1</indFinal>
+                <indPres>1</indPres>
+                <procEmi>0</procEmi>
+                <verProc>NF-E SIMULADA</verProc>
+            </ide>
+            <emit>
+                <CNPJ>36.081.295/0001-15</CNPJ>
+                <xNome>CORREIA - EI</xNome>
+            </emit>
+            <dest>
+                <CNPJ>20.687.935/0001-03</CNPJ>
+                <xNome>EMILLY PIRES</xNome>
+            </dest>
+            
+    <det nItem="1">
+        <prod>
+            <cProd>4473380583811035</cProd>
+            <xProd>EVENIET</xProd>
+            <NCM>01012100</NCM>
+            <CFOP>5101</CFOP>
+            <uCom>UN</uCom>
+            <qCom>41.591</qCom>
+            <vUnCom>619.23</vUnCom>
+            <vProd>25754.39</vProd>
+            <rastro>
+                <nLote>3311774</nLote>
+                <qLote>41.591</qLote>
+                <dFab>2025-10-13</dFab>
+                <dVal>2026-07-17</dVal>
+            </rastro>
+        </prod>
+        <imposto>
+            <ICMS>
+                <ICMS00>
+                    <orig>0</orig>
+                    <CST>00</CST>
+                    <pICMS>18.00</pICMS>
+                    <vICMS>4635.79</vICMS>
+                </ICMS00>
+            </ICMS>
+        </imposto>
+    </det>
+    
+    <det nItem="2">
+        <prod>
+            <cProd>9470632574602243</cProd>
+            <xProd>ANIMI</xProd>
+            <NCM>01012100</NCM>
+            <CFOP>5101</CFOP>
+            <uCom>UN</uCom>
+            <qCom>21.784</qCom>
+            <vUnCom>428.42</vUnCom>
+            <vProd>9332.7</vProd>
+            <rastro>
+                <nLote>5279738</nLote>
+                <qLote>21.784</qLote>
+                <dFab>2025-08-31</dFab>
+                <dVal>2026-05-22</dVal>
+            </rastro>
+        </prod>
+        <imposto>
+            <ICMS>
+                <ICMS00>
+                    <orig>0</orig>
+                    <CST>00</CST>
+                    <pICMS>18.00</pICMS>
+                    <vICMS>1679.89</vICMS>
+                </ICMS00>
+            </ICMS>
+        </imposto>
+    </det>
+    
+            <total>
+                <ICMSTot>
+                    <vProd>35087.09</vProd>
+                    <vICMS>6315.68</vICMS>
+                    <vNF>35087.09</vNF>
+                </ICMSTot>
+            </total>
+        </infNFe>
+    </NFe>
+</nfeProc>

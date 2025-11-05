@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+    <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+        <infNFe Id="NFe94618537532341472239781941969627529240326734" versao="4.00">
+            <ide>
+                <cUF>35</cUF>
+                <cNF>77964943</cNF>
+                <natOp>Venda de Mercadoria</natOp>
+                <mod>55</mod>
+                <serie>1</serie>
+                <nNF>000003</nNF>
+                <dhEmi>2025-10-31T13:11:06-03:00</dhEmi>
+                <tpNF>1</tpNF>
+                <idDest>1</idDest>
+                <cMunFG>3550308</cMunFG>
+                <tpImp>1</tpImp>
+                <tpEmis>1</tpEmis>
+                <cDV>9</cDV>
+                <tpAmb>1</tpAmb>
+                <finNFe>1</finNFe>
+                <indFinal>1</indFinal>
+                <indPres>1</indPres>
+                <procEmi>0</procEmi>
+                <verProc>NF-E SIMULADA</verProc>
+            </ide>
+            <emit>
+                <CNPJ>52.186.047/0001-95</CNPJ>
+                <xNome>SAMPAIO - EI</xNome>
+            </emit>
+            <dest>
+                <CNPJ>92.061.543/0001-37</CNPJ>
+                <xNome>LUANA CAVALCANTE</xNome>
+            </dest>
+            
+    <det nItem="1">
+        <prod>
+            <cProd>9977141646214516</cProd>
+            <xProd>EVENIET</xProd>
+            <NCM>01012100</NCM>
+            <CFOP>5101</CFOP>
+            <uCom>UN</uCom>
+            <qCom>77.295</qCom>
+            <vUnCom>144.49</vUnCom>
+            <vProd>11168.35</vProd>
+            <rastro>
+                <nLote>2802631</nLote>
+                <qLote>77.295</qLote>
+                <dFab>2025-10-10</dFab>
+                <dVal>2026-09-02</dVal>
+            </rastro>
+        </prod>
+        <imposto>
+            <ICMS>
+                <ICMS00>
+                    <orig>0</orig>
+                    <CST>00</CST>
+                    <pICMS>18.00</pICMS>
+                    <vICMS>2010.3</vICMS>
+                </ICMS00>
+            </ICMS>
+        </imposto>
+    </det>
+    
+    <det nItem="2">
+        <prod>
+            <cProd>9435008570281110</cProd>
+            <xProd>VOLUPTAS</xProd>
+            <NCM>01012100</NCM>
+            <CFOP>5101</CFOP>
+            <uCom>UN</uCom>
+            <qCom>36.132</qCom>
+            <vUnCom>128.09</vUnCom>
+            <vProd>4628.15</vProd>
+            <rastro>
+                <nLote>1128358</nLote>
+                <qLote>36.132</qLote>
+                <dFab>2025-08-02</dFab>
+                <dVal>2026-10-26</dVal>
+            </rastro>
+        </prod>
+        <imposto>
+            <ICMS>
+                <ICMS00>
+                    <orig>0</orig>
+                    <CST>00</CST>
+                    <pICMS>18.00</pICMS>
+                    <vICMS>833.07</vICMS>
+                </ICMS00>
+            </ICMS>
+        </imposto>
+    </det>
+    
+            <total>
+                <ICMSTot>
+                    <vProd>15796.5</vProd>
+                    <vICMS>2843.37</vICMS>
+                    <vNF>15796.5</vNF>
+                </ICMSTot>
+            </total>
+        </infNFe>
+    </NFe>
+</nfeProc>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+    <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+        <infNFe Id="NFe53435055681797385667958631734068256156348071" versao="4.00">
+            <ide>
+                <cUF>35</cUF>
+                <cNF>61912912</cNF>
+                <natOp>Compra de Mercadoria</natOp>
+                <mod>55</mod>
+                <serie>1</serie>
+                <nNF>000005</nNF>
+                <dhEmi>2025-10-31T13:11:06-03:00</dhEmi>
+                <tpNF>0</tpNF>
+                <idDest>1</idDest>
+                <cMunFG>3550308</cMunFG>
+                <tpImp>1</tpImp>
+                <tpEmis>1</tpEmis>
+                <cDV>2</cDV>
+                <tpAmb>1</tpAmb>
+                <finNFe>1</finNFe>
+                <indFinal>1</indFinal>
+                <indPres>1</indPres>
+                <procEmi>0</procEmi>
+                <verProc>NF-E SIMULADA</verProc>
+            </ide>
+            <emit>
+                <CNPJ>39.048.215/0001-18</CNPJ>
+                <xNome>ABREU</xNome>
+            </emit>
+            <dest>
+                <CNPJ>16.258.049/0001-89</CNPJ>
+                <xNome>ELOÁ JESUS</xNome>
+            </dest>
+            
+    <det nItem="1">
+        <prod>
+            <cProd>3661306831415630</cProd>
+            <xProd>REM</xProd>
+            <NCM>01012100</NCM>
+            <CFOP>5101</CFOP>
+            <uCom>UN</uCom>
+            <qCom>64.681</qCom>
+            <vUnCom>551.87</vUnCom>
+            <vProd>35695.5</vProd>
+            <rastro>
+                <nLote>8378370</nLote>
+                <qLote>64.681</qLote>
+                <dFab>2025-07-29</dFab>
+                <dVal>2026-08-15</dVal>
+            </rastro>
+        </prod>
+        <imposto>
+            <ICMS>
+                <ICMS00>
+                    <orig>0</orig>
+                    <CST>00</CST>
+                    <pICMS>18.00</pICMS>
+                    <vICMS>6425.19</vICMS>
+                </ICMS00>
+            </ICMS>
+        </imposto>
+    </det>
+    
+            <total>
+                <ICMSTot>
+                    <vProd>35695.5</vProd>
+                    <vICMS>6425.19</vICMS>
+                    <vNF>35695.5</vNF>
+                </ICMSTot>
+            </total>
+        </infNFe>
+    </NFe>
+</nfeProc>

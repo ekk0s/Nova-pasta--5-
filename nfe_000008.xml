@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+    <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+        <infNFe Id="NFe24974594826036514211422283037427526555029881" versao="4.00">
+            <ide>
+                <cUF>35</cUF>
+                <cNF>82685171</cNF>
+                <natOp>Venda de Mercadoria</natOp>
+                <mod>55</mod>
+                <serie>1</serie>
+                <nNF>000008</nNF>
+                <dhEmi>2025-10-31T13:11:06-03:00</dhEmi>
+                <tpNF>1</tpNF>
+                <idDest>1</idDest>
+                <cMunFG>3550308</cMunFG>
+                <tpImp>1</tpImp>
+                <tpEmis>1</tpEmis>
+                <cDV>4</cDV>
+                <tpAmb>1</tpAmb>
+                <finNFe>1</finNFe>
+                <indFinal>1</indFinal>
+                <indPres>1</indPres>
+                <procEmi>0</procEmi>
+                <verProc>NF-E SIMULADA</verProc>
+            </ide>
+            <emit>
+                <CNPJ>14.092.638/0001-04</CNPJ>
+                <xNome>FONSECA LTDA.</xNome>
+            </emit>
+            <dest>
+                <CNPJ>38.941.672/0001-74</CNPJ>
+                <xNome>SR. MARCELO FOGAÇA</xNome>
+            </dest>
+            
+    <det nItem="1">
+        <prod>
+            <cProd>5183077553930721</cProd>
+            <xProd>ARCHITECTO</xProd>
+            <NCM>01012100</NCM>
+            <CFOP>5101</CFOP>
+            <uCom>UN</uCom>
+            <qCom>70.521</qCom>
+            <vUnCom>368.55</vUnCom>
+            <vProd>25990.51</vProd>
+            <rastro>
+                <nLote>2546346</nLote>
+                <qLote>70.521</qLote>
+                <dFab>2025-10-11</dFab>
+                <dVal>2026-03-30</dVal>
+            </rastro>
+        </prod>
+        <imposto>
+            <ICMS>
+                <ICMS00>
+                    <orig>0</orig>
+                    <CST>00</CST>
+                    <pICMS>18.00</pICMS>
+                    <vICMS>4678.29</vICMS>
+                </ICMS00>
+            </ICMS>
+        </imposto>
+    </det>
+    
+            <total>
+                <ICMSTot>
+                    <vProd>25990.51</vProd>
+                    <vICMS>4678.29</vICMS>
+                    <vNF>25990.51</vNF>
+                </ICMSTot>
+            </total>
+        </infNFe>
+    </NFe>
+</nfeProc>
